@@ -1,8 +1,3 @@
-
-# Unity3D_WebCadViewer
-Viewer of CAD geometry for web deployment
-
-
 # Unity3D_WebCadViewer
 
 Viewer of CAD geometry for web deployment
