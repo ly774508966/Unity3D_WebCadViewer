@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "WebGL",
+"dataUrl": "webGL_build.data.unityweb",
+"asmCodeUrl": "webGL_build.asm.code.unityweb",
+"asmMemoryUrl": "webGL_build.asm.memory.unityweb",
+"asmFrameworkUrl": "webGL_build.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
