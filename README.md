@@ -1,6 +1,6 @@
 # Unity3D_WebCadViewer
 
-Viewer of CAD geometry for web deployment
+Viewer of CAD geometry for web deployment (WebGL)
 
 ## Fast start - How to use this project:
 
