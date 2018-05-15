@@ -17,6 +17,7 @@ public class MainCameraOrbit : MonoBehaviour
 	private float ScrollDampening = 6f;
 
 	public bool AutoRotate;
+	public bool ArrowsHeld;
 	public float ScrollAmount;
 
 	// Use this for initialization
@@ -35,7 +36,15 @@ public class MainCameraOrbit : MonoBehaviour
 		// Rotation: Autorotate from Button
 		if (AutoRotate)
 		{
-			_LocalRotation.x += (-1) * 0.15f * ScrollSensitvity;
+			if (!ArrowsHeld)
+			{ 
+				_LocalRotation.x += (-1) * 0.15f * ScrollSensitvity;
+				ArrowsHeld = false;
+			}
+			else
+			{
+				ArrowsHeld = false;
+			}
 		}
 
 		// Rotation: Rotation of the Camera based on Mouse Coordinates
@@ -49,8 +58,8 @@ public class MainCameraOrbit : MonoBehaviour
 		}
 
 		// Rotation: Clamp the y Rotation to horizon and not flipping over at the top
-		if (_LocalRotation.y < 0f)
-			_LocalRotation.y = 0f;
+		if (_LocalRotation.y < -90f)
+			_LocalRotation.y = -90f;
 		else if (_LocalRotation.y > 90f)
 			_LocalRotation.y = 90f;
 

@@ -18,6 +18,7 @@ public class BtnRotateArrows : MonoBehaviour
 	{
 		if (held)
 		{
+			MainCamera.GetComponent<MainCameraOrbit>().ArrowsHeld = true;
 			MainCamera.GetComponent<MainCameraOrbit>()._LocalRotation += localRotation * rotationSensitivity;
 			MainCamera.GetComponent<MainCameraOrbit>()._LocalTransform += localTransofrm * translationSensitivity;
 		}
