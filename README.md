@@ -2,9 +2,11 @@
 
 Viewer of CAD geometry for web deployment
 
+![PreviewImage](https://github.com/MiroslavKabat/Unity3D_WebCadViewer/blob/15b5a87d1a680b182d2d4a280d75a0073f15a73d/Preview.png)
+
 ## Fast start - How to use this project:
 
-* [link](https://github.com/MiroslavKabat/Unity3D_WebCadViewer/) - Unity project
+* Just run it as other Unity3D Projects
 
 ## Getting Started
 
